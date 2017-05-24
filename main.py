@@ -31,5 +31,5 @@ threads = pd.DataFrame(
 
 # STEP3. Export the pandas data frame as a csv file. ("threads.scarped.csv")
 # print(threads.to_string())
-csv_title = "threads_scraped"
+csv_title = "threads_scraped.csv"
 threads.to_csv(csv_title, index = True, encoding = "utf-8")
